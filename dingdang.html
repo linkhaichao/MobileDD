@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <!--meta:compat-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta:vp 插入快捷键-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>手机叮当-叮当一下</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/font-awesome-ie7.min.css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <![endif]-->
+    <!--link:favicon-->
+
+    <link rel="stylesheet" href="css/moveCss.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/dingdang.css">
+</head>
+<body>
+<!--头部区域-->
+<nav id="head" class="navbar navbar-bg  navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dingDangShouYe">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand col-xs-5">
+                <img src="img/HomeLOGO.png" alt="" class="login-logo">
+            </a>
+            <i class="fa fa-user fa-4x visible-xs"></i>
+        </div>
+        <div class="collapse navbar-collapse" id="dingDangShouYe">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">首页</a></li>
+                <li class="dropdown active">
+                    <a href="dingdang.html" class="dropdown-toggle" data-toggle="dropdown">叮当一下</a>
+                    <ul class="dropdown-menu zicaidan" role="menu">
+                        <li><a href="dingdang.html">手机叮当</a></li>
+                        <li><a href="#">电脑叮当</a></li>
+                        <li><a href="#">旧物置换</a></li>
+                        <li><a href="#">水电叮当</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="process.html">服务流程</a></li>
+                <li><a href="dynamic.html">叮当动态</a></li>
+                <li><a href="about.html">关于我们</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right hidden-xs">
+                <li id="login"><a href="#"><i class="fa fa-weixin"></i><span>登录</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--/头部区域-->
+
+<!--banner区域-->
+<section id="banner" class="hidden-xs">
+    <div class="container">
+        <h2>叮当动态
+            <small> NEWS</small>
+        </h2>
+        <p><span></span></p>
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">叮当动态</a></li>
+            <li class="active">叮当资讯</li>
+        </ol>
+    </div>
+</section>
+<!--叮当一下-->
+<section id="dingdang-dongtai">
+    <div class="container">
+        <div>
+            <!-- Nav tabs -->
+            <p class="news-top">
+                <span role="presentation"><a class="active" href="#home" aria-controls="home" role="tab"
+                                             data-toggle="tab">叮当资讯</a></span>
+                <span role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                                             data-toggle="tab">公益活动</a></span>
+                <span role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                                             data-toggle="tab">有奖问答</a></span>
+            </p>
+
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="profile">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="messages">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="..." class="img-responsive">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news1.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <img src="img/news2.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 hidden-sm">
+                            <img src="img/news3.jpg" alt="...">
+                            <div class="media">
+                                <div class="media-left media-middle">
+                                    <div>
+                                        <p>11</p>
+
+                                        <p>JUN</p>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">这是关于这条新闻的标题部分的内容</h4>
+                                    <p>作者：<span>手机叮当</span>浏览：<span>100次</span></p>
+                                </div>
+                            </div>
+                            <p class="hidden-sm hidden-xs">这是关于本条新闻的内容简介，字数可以在后台调用的时候进行控制，这是内容简介部分的描述文字。<a href="#">[阅读全文]</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--分页-->
+            <nav>
+                <ul class="pagination">
+                    <li><a href="#">&laquo;</a></li>
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!--招聘-->
+<section id="wanted">
+    <div class="container">
+        <div class="col-md-6 col-sm-12 col-xs-8">在线申请成为维修师傅</div>
+        <div class="col-md-6 col-sm-12 col-xs-4 text-right">
+            <span class="hidden-xs">WE WANT YOU !</span>
+            <a href="#">立即申请</a>
+        </div>
+    </div>
+</section>
+<!--招聘-->
+<!--脚注区域-->
+<footer id="footer">
+    <div class="container">
+        <p class="hidden-xs"><span>服务流程</span>|<span>关于我们</span>|<span>叮当动态</span>|<span>常见问题</span></p>
+
+        <p><span>©Copyright 2015 惠州市剩蛋网络科技有限公司</span> <span>粤ICP备1234567号-1   技术支持：蓝睿网络</span></p>
+    </div>
+</footer>
+<!--脚注区域-->
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

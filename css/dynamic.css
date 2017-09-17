@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+#news-content{
+    margin-top: 52px;
+}
+#news-content .container{
+    background-color: #fff;
+}
+
+
+#news-content .container > h3{
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+#news-content .container .news-tags{
+    height: 42px;
+    display: flex;
+    border-top: 1px solid #2CAD42;
+    border-bottom: 1px solid #2CAD42;
+}
+
+#news-content .container .news-tags>div{
+
+display: inline-block;
+}
+#news-content .container .news-tags>div:nth-of-type(1){
+}
+#news-content .container .news-tags>div:nth-of-type(2){
+
+}
+#news-content .container .news-tags>div:nth-of-type(2) span{
+    /* padding: 21px 20px; */
+    /* padding-top: 24px; */
+    border-left: 1px solid #2dac41;
+    box-sizing: border-box;
+    color: #2CAD42;
+    font-size: 18px;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 64px;
+    text-align: center;
+    margin-left: -4px;
+}
+#news-content .container .news-tags>div:nth-of-type(2) span:hover {
+    background-color: #2dac41;
+    color: #ffffff;
+}
+#news-content .container .news-tags>div:nth-of-type(2) span i{
+    display: inline-block;
+}
+#news-content .container .news-tags>div:nth-of-type(2) span:hover i{
+    color: #ffffff;
+}
+#news-content .container .news-tags>div:nth-of-type(2) span:nth-of-type(1) i,
+#news-content .container .news-tags>div:nth-of-type(2) span:nth-of-type(2) i{
+    font-size: 14px;
+}
+#news-content .container .news-tags>div:nth-of-type(2) span:nth-of-type(7){
+    border-right: 1px solid #2dac41;
+}
+
+#news-content .container >p{
+    font-size: 14px;
+    line-height: 25px;
+    padding: 20px 0 33px;
+    text-indent: 38px;
+}
+#news-content .container >p em{
+    font-style: normal;
+    display: block;
+}
+#news-content .container nav{
+    margin-bottom: 36px;
+
+}
+#news-content .container .news-tags>div:nth-of-type(1){margin: auto;}
+#news-content .container nav i{
+    color: #ffffff;
+   /* margin-left: 29px;*/
+}
+
+#news-content .container nav li a{
+    background-color: #2dac41;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px 14px;
+    border-radius: 50%;
+    display: inline;
+    text-align: center;
+    line-height: 50px;
+    width: 40px;
+    height: 40px;
+}
+#news-content .container nav i.fa-angle-left,
+#news-content .container nav i.fa-angle-right{
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 10px;
+    font-size: 18px;
+}
+#news-content .container nav .previous{
+    float: right;
+}
+#news-content .container nav .next{
+    float: left;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    #news-content .container{
+        background-color: #fff;
+    }
+    #news-content .container .news-tags{
+        height: 66px;
+        line-height: 66px;
+        border-top: 1px solid #2CAD42;
+        border-bottom: 1px solid #2CAD42;
+        display: block;
+        box-sizing: border-box;
+        padding-left: 18px;
+    }
+    
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(2){
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(3){
+        padding-left: 35px;
+        padding-right: 140px;
+    }
+    #news-content .container> p{
+        line-height: 36px;
+        padding: 37px 18px 50px;
+        font-size: 18px;
+    }
+    #news-content .container nav li a{
+
+        background-color: #2CAD42;
+
+        width: 60px;
+
+        height: 60px;
+
+        border-radius: 50%;
+
+        text-align: center;
+
+        line-height: 60px;
+        display: inline-block;
+    }
+    #news-content .container nav i.fa-angle-left,
+    #news-content .container nav i.fa-angle-right{
+        width: 100%;
+        height: 100%;
+        display: block;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    #news-content .container nav .previous{
+        float: right;
+    }
+    #news-content .container nav .next{
+        float: left;
+    }
+    #news-content .container > h3{
+        font-size: 24px;
+        margin-bottom: 34px;
+        margin-top: 0;
+    }
+    #news-content .container nav{
+        margin-bottom: 45px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    #news-content .container{
+        background-color: #f7f7f7;
+    }
+    #news-content .container .news-tags{
+        padding-left: 20px;
+        color: #2DAC41;
+    }
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(3){
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(2){
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    #news-content .container >p{
+        line-height: 36px;
+        padding: 37px 20px 50px;
+        font-size: 18px;
+    }
+    #news-content .container nav{
+        padding:0 20px;
+        margin-bottom: 60px;
+    }
+    #news-content .container nav li a{
+        background-color: #2dac41;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 15px 14px;
+        border-radius: 60px;
+        display: inline;
+        text-align: center;
+        line-height: 50px;
+        width: auto;
+        height: auto;
+    }
+
+    #news-content .container nav i.fa-angle-left,
+    #news-content .container nav i.fa-angle-right{
+         margin-left: 0;
+         margin-right: 25px;
+         display: inline;
+    }
+    #news-content .container nav i.fa-angle-right{
+        margin-left: 29px;
+        margin-right: 0;
+    }
+    #news-content .container nav .previous{
+        float: none;
+    }
+    #news-content .container nav .next{
+        float: none;
+    }
+    #news-content .container > h3{
+        margin-top: 50px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    /*叮当动态*/
+    #news-content{
+        margin-top: 52px;
+    }
+    #news-content .container{
+        background-color: #f7f7f7;
+        padding: 0;
+    }
+    #news-content .container .news-tags{
+        padding-left: 40px;
+        color: #2DAC41;
+    }
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(3){
+        padding-left: 35px;
+        padding-right: 140px;
+    }
+    #news-content .container .news-tags>div:nth-of-type(1) span:nth-of-type(2){
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+    #news-content .container > p{
+        line-height: 36px;
+        padding: 37px 40px 50px;
+        font-size: 18px;
+    }
+    #news-content .container nav{
+        padding:0 40px;
+        color: #fff;
+        margin-bottom: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

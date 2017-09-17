@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+/*新闻动态*/
+#dingdang-dongtai{
+    padding-bottom: 50px;
+}
+#dingdang-dongtai .carousel-indicators{
+
+    bottom: -10%;
+}
+
+#dingdang-dongtai .media-body{
+    padding-left: 15px;
+}
+
+#dingdang-dongtai .media-left>div{
+    width: 36px;
+    height: 36px;
+    border:1px solid #2dac41;
+    color: #2dac41;
+    display: inline-block;
+}
+
+#dingdang-dongtai .media-left>div p{
+    margin-bottom:0;
+    text-align: center;
+}
+
+#dingdang-dongtai .media-body h4{
+    font-size: 13px;
+    margin-top: 12px;
+}
+#dingdang-dongtai .media-body p{
+    color: #2dac41;
+}
+#dingdang-dongtai .media-body p span{
+    margin-right: 27px;
+    font-size: 10px;
+}
+
+#dingdang-dongtai .carousel-indicators .active{
+    background-color: #2dac41;
+}
+#dingdang-dongtai .carousel-indicators li{
+    border-color: #2dac41;
+}
+
+#dingdang-dongtai .news-top{
+    text-align: center;
+    margin-top: 75px;
+}
+#dingdang-dongtai .news-top span{
+    margin-right: 6px;
+    display: inline-block;
+}
+
+
+#dingdang-dongtai .news-top a{
+    border:1px solid #2dac41;
+    padding: 5px;
+    display: inline-block;
+    color: #2dac41;
+    border-radius: 3px;
+}
+#dingdang-dongtai .news-top a:hover{
+    background-color: #2dac41;
+    color:#fff;
+}
+
+#dingdang-dongtai .caption > p a{
+    color: #2dac41;
+}
+#dingdang-dongtai img{
+    max-width:100%;
+}
+
+#dingdang-dongtai .news-top a.active{
+    background-color: #2dac41;
+    color: #fff;
+}
+#dingdang-dongtai nav{
+    display: flex;
+}
+#dingdang-dongtai nav ul{
+    margin: auto;
+}
+
+#dingdang-dongtai p a{
+    color: #2dac41;
+}
+
+#dingdang-dongtai .row > div{
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+#dingdang-dongtai .row > div img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+#dingdang-dongtai .row .media{
+    width: 347px;
+    margin: auto;
+}
+#dingdang-dongtai .row .media>div{
+    margin: auto;
+}
+#dingdang-dongtai .media-body{
+    padding-left: 3px;
+}
+#dingdang-dongtai .media-left>div p{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+#dingdang-dongtai .pagination > li > a{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #2dac41;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #2dac41;
+}
+#dingdang-dongtai .pagination > li > a:hover,
+#dingdang-dongtai .pagination > li > a:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #2dac41;
+    border-color: #ddd;
+}
+#dingdang-dongtai .pagination > li > a.active{
+    color: #fff;
+    background-color: #2dac41;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) {
+    #dingdang-dongtai{
+        padding: 39px 0;
+    }
+    #dingdang-dongtai .media-left>div{
+        width: 45px;
+        height: 45px;
+    }
+    #dingdang-dongtai .media-body{
+        padding-left: 10px;
+    }
+    #dingdang-dongtai .media-left>div p{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    #dingdang-dongtai .media-body h4 {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    #dingdang-dongtai .media-body p span{
+        font-size: 14px;
+    }
+    #dingdang-dongtai .news-top{
+        margin-top: 0;
+    }
+    #dingdang-dongtai .row > div {
+        margin-top: 44px;
+        margin-bottom: 34px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+    #dingdang-dongtai{
+        padding: 52px 0;
+    }
+    #dingdang-dongtai .row .media{
+        width: 298px;
+    }
+    #dingdang-dongtai .media-body{
+        padding-left: 13px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+    #dingdang-dongtai .row .media{
+        width:347px;
+    }
+    #dingdang-dongtai .media-body{
+        padding-left: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
